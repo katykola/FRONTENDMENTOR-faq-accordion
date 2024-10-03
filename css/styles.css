@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(292, 16%, 49%);
+}
+
+.bgimage {
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  height: 250px;
+  width: 100%;
+}
+
+.purple {
+  background-color: hsl(275, 100%, 97%);
+}
+
+.faq {
+  margin: 0 2rem;
+  padding: 2rem;
+  background-color: white;
+  position: relative;
+  top: -100px;
+  border-radius: 10px;
+}
+
+.star {
+  width: 20px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+  display: inline-block;
+}
+
+.qa-pair {
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.q-line {
+  display: flex;
+  align-items: center;
+}
+
+.q-text {
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+  display: inline-block;
+}
+
+.q-sign {
+  margin-left: 2rem;
+}
+
+.answer {
+  margin-top: 0;
+  display: none;
+}
+
+.answer-show {
+  display: inherit;
+}/*# sourceMappingURL=styles.css.map */
